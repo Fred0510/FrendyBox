@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.frederickramirezl.frendybox">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/frendybox"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/frendybox"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PlanBasico"
+            android:label="@string/title_activity_plan_basico"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PlanIntermedio"
+            android:label="@string/title_activity_plan_intermedio"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PlanPremium"
+            android:label="@string/title_activity_plan_premium"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

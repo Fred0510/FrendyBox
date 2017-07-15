@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.frederickramirezl.frendybox.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src = "@drawable/frendybox"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:scaleType="centerCrop"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <EditText
+            android:id= "@+id/Nombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint = "Nombre"
+            android:inputType="textCapWords"
+            android:paddingTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"/>
+
+        <TextView
+            android:paddingTop="16dp"
+            android:text="Tipo de suscripción"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:paddingBottom="16dp"
+            android:paddingLeft="16dp"/>
+
+        <CheckBox
+            android:id = "@+id/basico"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "Basico"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="8dp"/>
+
+        <Button
+            android:id = "@+id/Basic"
+            android:text="Basico"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="BasicoPack"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="20dp"/>
+
+        <CheckBox
+            android:id = "@+id/intermedio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "Intermedio"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"/>
+        <Button
+            android:id = "@+id/Inter"
+            android:text="Intermedio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="IntermedioPack"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="20dp"/>
+        <CheckBox
+            android:id = "@+id/premium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text = "Premium"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="8dp"/>
+        <Button
+            android:id = "@+id/Prem"
+            android:text="Premium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="PremiumPack"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="16dp"
+            android:layout_marginLeft="20dp"/>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id = "@+id/Orden"
+        android:text="Orden"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="submitOrder"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/UrlLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="hola@frendybox.com"
+        android:textColor="@color/colorAccent"
+        android:textAppearance="?android:textAppearanceSmall"
+        android:layout_toLeftOf="@id/Orden"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:paddingRight="20dp"
+        android:layout_marginLeft="16dp"
+        />
+
+    <TextView
+        android:id="@+id/Number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+1 (849) 654-5346"
+        android:textColor="@color/colorAccent"
+        android:layout_toRightOf="@id/Orden"
+        android:layout_alignParentBottom="true"
+        android:layout_above="@id/UrlLink"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+1 (829) 649-0099"
+        android:textColor="@color/colorAccent"
+        android:layout_toRightOf="@id/Orden"
+        android:layout_above="@id/Number"
+        android:layout_marginLeft="16dp"/>
+
+</RelativeLayout>

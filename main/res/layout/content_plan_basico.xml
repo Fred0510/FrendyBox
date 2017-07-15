@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.frederickramirezl.frendybox.PlanBasico"
+    tools:showIn="@layout/activity_plan_basico"
+    >
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src = "@drawable/frendybox"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:scaleType="centerCrop"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Precio:"
+            android:layout_marginTop="18dp"
+            android:layout_marginLeft="18dp"
+            android:textColor="#212121"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="$RD 950 mensual"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="12dp"
+            android:textColor="#212121"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Servicios que trae este servicio:"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="12dp"
+            android:textColor="#212121"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1 caja de Comida mediana"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="12dp"
+            android:textColor="#212121"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2 Juguetes"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="12dp"
+            android:textColor="#212121"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1 Shampoo"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="12dp"
+            android:textColor="#212121"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Estos servicios se le brindaran una vez por mes,
+recuerde seguir las instrucciones de nuestros empleados
+tambien si así lo desea puede cambiar de plan luego de haber acabado la mensualidad de este plan"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="12dp"
+            android:textColor="#212121"/>
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
