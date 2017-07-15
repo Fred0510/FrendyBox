@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Frederick Ramirez L\.android\build-cache\21aaaa8b30c130871c01e672ddfd0f5c40b53e47\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="cddcd0fb93bc70e27325f2f715b2710332004ebb">
+        <dex dex="C:\Users\Frederick Ramirez L\AndroidStudioProjects\FrendyBox\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d4f8cf30ed77d7fcbdeed7c35f0df9c658168851\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Frederick Ramirez L\AndroidStudioProjects\FrendyBox\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\Frederick Ramirez L\AndroidStudioProjects\FrendyBox\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_5911a9d1969d147a7aba06ee42648453e56bd7f4\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Frederick Ramirez L\.android\build-cache\3b506fb4aef4dba2ba59512f0835b9e1776d68e2\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="c4f45092eee6cdf1a5dbd597b2b6819be652ce2e">
+        <dex dex="C:\Users\Frederick Ramirez L\AndroidStudioProjects\FrendyBox\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e81f4d356322fe741e73c2ae78dae48d25f423c6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Frederick Ramirez L\.android\build-cache\f57681379564ce32d3ef046ab382aeaf1984104b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="6a022bf00ccd0948a8180c505e8e458bbddd43a6">
+        <dex dex="C:\Users\Frederick Ramirez L\AndroidStudioProjects\FrendyBox\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_71d3942e415ed7b15dd21abb2c2b8501905794fa\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Frederick Ramirez L\AndroidStudioProjects\FrendyBox\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="7ea87a5f62a44005f998fc5e53572392aa4682e2">
+        <dex dex="C:\Users\Frederick Ramirez L\AndroidStudioProjects\FrendyBox\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_536658d67a4f1ca811828d2c2da2e03ac2dcb940\classes.dex" />
+    </item>
+
+</items>
